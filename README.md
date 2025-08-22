@@ -14,9 +14,7 @@ Interface intuitiva e de fácil uso.
 🛠️ Tecnologias utilizadas
 
 HTML
-
 CSS
-
 JavaScript
 
 📌 Objetivo
