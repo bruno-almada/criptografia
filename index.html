@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Criptografia</title>
+
+  <!-- Favicon PNG -->
+  <link rel="icon" type="image/png" href="favicon.png" />
+
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>🔐 Criptografia</h1>
+    <p>Digite uma mensagem e uma senha para criptografar ou descriptografar.</p>
+
+    <label for="inputText">Mensagem:</label>
+    <textarea id="inputText" placeholder="Digite sua mensagem aqui..."></textarea>
+
+    <label for="password">Senha:</label>
+    <input type="password" id="password" placeholder="Digite a senha..." />
+
+    <div class="buttons">
+      <button onclick="encrypt()">🔒 Criptografar</button>
+      <button onclick="decrypt()">🔓 Descriptografar</button>
+    </div>
+
+    <label for="outputText">Resultado:</label>
+    <textarea id="outputText" readonly placeholder="O resultado aparecerá aqui..."></textarea>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
